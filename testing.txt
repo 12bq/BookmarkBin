@@ -1,0 +1,15 @@
+http:/testUrl.temp
+https://apex.oracle.com/
+https://www.google.co.in/index.html
+http://www.oracle.com/goto/oll
+http://www.google.com/news
+http://www.google.com/newzZZ
+http://oracle.com/test.html
+
+//JIC for testing
+System.out.println("Invalid URLs");
+System.out.println(myClient.incorrectURLS+"\n");
+System.out.println("Valid URLS that have successfully connected:");
+System.out.println(myClient.succeededURLS+"\n");
+System.out.println("Broken URLS that did not successfully connect:");
+System.out.println(myClient.failedURLS+"\n");
